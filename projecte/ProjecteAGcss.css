@@ -5,3 +5,8 @@ header{
     padding-top: 2em;
     color: white;
 }
+
+.Maincontent {
+    height: 500px;
+    width: 300px;
+}
