@@ -4,6 +4,9 @@ header{
     padding-top: 2em;
     color: white;
 }
+.Mcontent {
+    border: 1px, solid, black;
+}
 
 footer{
     height: 100px;
