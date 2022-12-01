@@ -1,8 +1,13 @@
+
+
+/* Header */
+
 header{
     text-align: center;
     height: 150px;
     padding-top: 2em;
     color: white;
+    background-color: #2C3E50;
 }
 .Mcontent {
     border: 1px, solid, black;
@@ -58,3 +63,6 @@ a:hover {
   text-decoration: none;
 }
 
+div {
+  text-align: justify;
+}
