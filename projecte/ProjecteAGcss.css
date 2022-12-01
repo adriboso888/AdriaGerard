@@ -14,6 +14,7 @@ header{
 }
 
 
+
 /* footer */
 
 .footer-style {
@@ -44,25 +45,3 @@ footer:link{
     color: yellow;
 }
 
-.Maincontent {
-    height: 500px;
-    width: 300px;
-}
-footer{
-    height: 100px;
-    color: white;
-    bottom: 0px;
-    position:absolute;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-div {
-  text-align: justify;
-}
