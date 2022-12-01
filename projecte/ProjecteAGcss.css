@@ -4,7 +4,41 @@ header{
     padding-top: 2em;
     color: white;
 }
+.Mcontent {
+    border: 1px, solid, black;
+}
 
+
+/* footer */
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #2C3E50;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+footer:link{
+    text-decoration: none;
+    color: yellow;
+}
+
+<<<<<<< HEAD
 .Maincontent {
     height: 500px;
     width: 300px;
@@ -14,4 +48,9 @@ footer{
     color: white;
     bottom: 0px;
     position:absolute;
+=======
+
+a:hover {
+  text-decoration: none;
+>>>>>>> 986cc11d6055367d75998047563f6f5894607eb2
 }
