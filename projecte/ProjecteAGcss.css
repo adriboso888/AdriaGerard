@@ -1,8 +1,13 @@
+
+
+/* Header */
+
 header{
     text-align: center;
     height: 150px;
     padding-top: 2em;
     color: white;
+    background-color: #2C3E50;
 }
 .Mcontent {
     border: 1px, solid, black;
@@ -39,7 +44,3 @@ footer:link{
     color: yellow;
 }
 
-
-a:hover {
-  text-decoration: none;
-}
