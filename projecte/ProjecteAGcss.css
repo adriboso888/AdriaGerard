@@ -35,3 +35,23 @@ footer:link{
     text-decoration: none;
     color: yellow;
 }
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+.Maincontent {
+    height: 500px;
+    width: 300px;
+
+footer{
+    height: 100px;
+    color: white;
+    bottom: 0px;
+    position:absolute;
+=======
+
+a:hover {
+  text-decoration: none;
+>>>>>>> 986cc11d6055367d75998047563f6f5894607eb2
+}
+>>>>>>> e20bf85630df742cc300306b213692673839410d
