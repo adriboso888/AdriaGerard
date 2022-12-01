@@ -1,7 +1,6 @@
 header{
     text-align: center;
     height: 150px;
-    color: black;
     padding-top: 2em;
     color: white;
 }
@@ -9,4 +8,10 @@ header{
 .Maincontent {
     height: 500px;
     width: 300px;
+
+footer{
+    height: 100px;
+    color: white;
+    bottom: 0px;
+    position:absolute;
 }
