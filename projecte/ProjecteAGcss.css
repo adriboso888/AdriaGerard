@@ -37,3 +37,8 @@ footer:link{
     text-decoration: none;
     color: yellow;
 }
+
+
+a:hover {
+  text-decoration: none;
+}
