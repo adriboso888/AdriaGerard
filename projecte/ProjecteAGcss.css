@@ -1,5 +1,3 @@
-
-
 /* Header */
 
 header{
@@ -10,15 +8,27 @@ header{
     background-color: #2C3E50;
     font-family: monaco,Consolas,Lucida Console,monospace;
 }
-
+/* */
 .Mcontent {
     border: 1px, solid, black;
 }
 
-.text{
-  text-align:justify;
+/* Imatges */
+img{
+  width: 40%;
 }
+/* */
 
+
+/* Divs */
+div{
+  text-align: justify;
+}
+/* */
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 
 
 /* footer */
@@ -29,7 +39,10 @@ header{
 }
 footer {
   color: white;
-  margin-top: 2em;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+
 }
 footer h3 {
   margin-bottom: 20px;
@@ -50,5 +63,5 @@ footer:link{
     text-decoration: none;
     color: yellow;
 }
-
+/* */
 
