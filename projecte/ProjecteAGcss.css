@@ -13,7 +13,6 @@ header{
 /* */
 
 
-
 .Mcontent {
     border: 1px, solid, black;
 }
@@ -42,7 +41,6 @@ footer {
   color: white;
   width: 100%;
   position: relative;
-  margin: 0 auto;
   padding: 5px;
 }
 footer h3 {
@@ -66,4 +64,12 @@ footer:link{
 }
 
 /* */
+
+div.row{
+  margin-right: 0px;
+}
+
+div.container-fluid{
+  padding-right: 0px;
+}
 
