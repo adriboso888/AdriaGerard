@@ -10,13 +10,12 @@ footer.innerHTML = `
                         Gerard Trabazos
                     </p>
                 </div>
-                <div class="col-md-4 footer-col">
+                <div class="col-md-4">
                     <h3>Creació pàgina web</h3>
                     <ul class="list-inline">
                         <li>
                             <a target="_blank" href="https://github.com/adriboso888/AdriaGerard.git" class="btn-social btn-outline"><p>GitHub</p></a>
                         </li>
-                       
                     </ul>
                 </div>
                 <div class="col-md-4 footer-col ">
