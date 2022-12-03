@@ -21,7 +21,7 @@ footer.innerHTML = `
                     </ul>
                 </div>
                 <div class="col col-md-4 footer-col ">
-                    <h3>Descripció</h3>
+                    <h3>Pàgines</h3>
                     <div class="container-fluid">
                       <ul class="navbar-nav">
                         <li class="nav-item">
