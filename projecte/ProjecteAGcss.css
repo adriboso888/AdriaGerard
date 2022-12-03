@@ -7,6 +7,7 @@ header{
     color: white;
     background-color: #2C3E50;
     font-family: monaco,Consolas,Lucida Console,monospace;
+    width: 100%;
 }
 /* */
 .Mcontent {
@@ -26,10 +27,6 @@ div{
 }
 /* */
 
-body {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
 
 /* footer */
 
@@ -39,9 +36,9 @@ body {
 }
 footer {
   color: white;
-  bottom: 0;
+  padding-bottom: 2em;
   width: 100%;
-  position: fixed;
+  position: relative;
 
 }
 footer h3 {
@@ -63,5 +60,6 @@ footer:link{
     text-decoration: none;
     color: yellow;
 }
+
 /* */
 
