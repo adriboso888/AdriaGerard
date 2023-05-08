@@ -25,13 +25,13 @@ footer.innerHTML = `
                     <div class="container-fluid">
                       <ul class="navbar-nav">
                         <li class="nav-item">
-                          <a class="nav-link" href="Pagina1.html">Toyota</a>
+                          <a class="nav-link" href="Pagina1.html">Rebeldes</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="Pagina2.html">Nissan</a>
+                          <a class="nav-link" href="Pagina2.html">Imperio</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="Pagina3.html">Mazda</a>
+                          <a class="nav-link" href="Pagina3.html">Jedis</a>
                         </li>
                       </ul>
                     </div>
