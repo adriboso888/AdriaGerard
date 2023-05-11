@@ -17,9 +17,11 @@ header {
   border: 1px, solid, black;
 }
 
-/* Imatges */
-img {
-  width: 40%;
+
+#imatge {
+  text-align: right;
+  width: 50%;
+
 }
 
 /* */
