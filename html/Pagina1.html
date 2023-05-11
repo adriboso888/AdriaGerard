@@ -9,14 +9,17 @@
   <link rel="stylesheet" href="../css/ProjecteAGcss.css" type="text/css">
   <link rel="stylesheet" href="../css/ProjecteAG.css" type="text/css">
   <script src="../js/footer.js" type="text/javascript" defer></script>
-  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1200px-Rebel_Alliance_logo.svg.png">
+  <link rel="shortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1200px-Rebel_Alliance_logo.svg.png">
   <script src="../js/projecte.js" type="text/javascript" defer></script>
-  <link rel="shortcut icon" href="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2022/05/historia-toyota-sprinter-trueno-2694651.jpg">
+  <link rel="shortcut icon"
+    href="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2022/05/historia-toyota-sprinter-trueno-2694651.jpg">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
   <header class="col col-md-12">
-    <h1>Rebeldes</h1>
+    <h1>Veure Personatges</h1>
     <ul class="list-inline">
       <li>
         <a target="_blank" href="../Index.html" class="btn-social btn-outline"> <svg xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +37,7 @@
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-black" href="Pagina1.html">Rebeldes</a>
+          <a class="nav-link text-black" href="Pagina1.html">Veure Personatges</a>
         </li>
 
         <li class="nav-item">
@@ -57,63 +60,21 @@
   <div class="row">
 
     <div class="col col-md-6 mx-4 mb-4">
-      Poco antes de la creación del Imperio Galáctico, los senadores Mon Mothma, Bail Organa y Padmé Amidala, junto a
-      otros senadores, presentaron la Petición de los 2000 a Palpatine para que este devolviera sus poderes especiales
-      una vez acabaran las Guerras Clon. Sin embargo, el Canciller ahora procamado como el Emperador no los escuchó, más
-      bien a aquellos que no se sometían al mandato del Emperador eran considerados traidores al Imperio y encarcelados
-      o ejecutados.
-      <br><br>
-      Múltiples planetas apoyaron fervientemente a la Alianza y la asistieron durante muchos años con todo tipo de
-      requerimientos, pues compartían el mismo odio por la tiranía imperial. La Guerra Civil no fue nada bien para la
-      Rebelión, aunque todo cambió en el momento en que un escuadrón rebelde llamado Rogue One robó los planos de la
-      Estrella de la Muerte. Finalmente, la situación cambió cuando el joven granjero de Tatooine (Luke Skywalker) y sus
-      dos amigos contrabandistas (Han Solo y Chewbacca) ingresaron en la Alianza rebelde, dándole un gran giro. Durante
-      la Batalla de Yavin, Luke consiguió destruir la poderosa arma imperial, matando además a uno de los grandes
-      líderes, el Gran Moff Wilhuff Tarkin que muere en la explosión al no escapar de la Estrella de la Muerte.
-      <br><br>
-      Los Líderes de la Alianza Rebelde por lo general eran bastante aguerridos y expertos militares o diplomáticos. Tal
-      es el caso de Mon Mothma o la princesa Leia Organa, dos senadoras. O del General Jan Dodonna, General Crix Madine,
-      Carlist Rieekan y otros.
-    </div>
+      <p>Digues de quina pelicula vols veure els personatges</p>
+      <select id="selectPeli">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
 
+      <div id="personatges">
 
-    <div class="offset-1 col-10 col-md-4 mb-3">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://www.mojehobby.pl/zdjecia/5/0/1/47744_rd.png" class="d-block w-100" height="400px"
-              alt="...">
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://gascommunity.com/wp-content/uploads/2020/01/Recordando-al-Toyota-AE86-la-joya-del-drift-1.jpg"
-              class="d-block w-100" height="400px" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/toyota-corolla-sr5-sport-liftback-1-1635784323.jpg"
-              class="d-block w-100" height="400px" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <img class="offset-1 col-10 col-md-4 mb-3"
+      id="imatge"></img>
     </div>
   </div>
 

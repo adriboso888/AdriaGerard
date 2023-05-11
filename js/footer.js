@@ -25,7 +25,7 @@ footer.innerHTML = `
                     <div class="container-fluid">
                       <ul class="navbar-nav">
                         <li class="nav-item">
-                          <a class="nav-link" href="Pagina1.html">Rebeldes</a>
+                          <a class="nav-link" href="Pagina1.html">Veure Personatges</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="Pagina2.html">Imperio</a>
