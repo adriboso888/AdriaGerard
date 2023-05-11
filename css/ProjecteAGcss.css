@@ -4,8 +4,8 @@ header {
   text-align: center;
   height: 150px;
   padding-top: 2em;
-  color: white;
-  background-color: #2C3E50;
+  color: yellow;
+  background-color: #000000;
   font-family: monaco, Consolas, Lucida Console, monospace;
   width: 100%;
 }
@@ -37,11 +37,11 @@ div {
 
 .footer-style {
   padding-top: 10px;
-  background-color: #2C3E50;
+  background-color: black;
 }
 
 footer {
-  color: white;
+  color: yellow;
   width: 100%;
   position: relative;
   padding: 5px;
