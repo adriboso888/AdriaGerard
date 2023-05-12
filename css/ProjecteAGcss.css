@@ -17,10 +17,11 @@ header {
   border: 1px, solid, black;
 }
 
-
+/*Imatges */
 #imatge {
   text-align: right;
-  width: 50%;
+  width: 30%;
+  height: 20%;
 
 }
 
