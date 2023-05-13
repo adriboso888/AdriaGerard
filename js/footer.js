@@ -11,7 +11,7 @@ footer.innerHTML = `
                     </p>
                 </div>
                 <div class="col col-md-4">
-                    <h3>Creació pàgina web</h3>
+                    <h3>El nostre GitHub</h3>
                     <ul class="list-inline">
                         <li>
                             <a target="_blank" href="https://github.com/adriboso888/AdriaGerard.git" class="btn-social btn-outline"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -28,10 +28,10 @@ footer.innerHTML = `
                           <a class="nav-link" href="Pagina1.html">Veure Personatges</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="Pagina2.html">Imperio</a>
+                          <a class="nav-link" href="Pagina2.html">Gràfic planetes</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="Pagina3.html">Jedis</a>
+                          <a class="nav-link" href="Pagina3.html">Buscar Personatge</a>
                         </li>
                       </ul>
                     </div>
