@@ -53,20 +53,51 @@
 
   <div class="row">
     <div class="col -1 col-md-6 mx-4 mb-4">​
-      <h1>Buscar personajes de Star Wars</h1>
-      <form id="search-form">
-        <label>Altura:</label>
-        <input type="text" name="height"><br>
-        <label>Pes:</label>
-        <input type="text" name="mass"><br>
-        <label>Color de cabell:</label>
-        <input type="text" name="hair_color"><br>
-        <label>Color de pell:</label>
-        <input type="text" name="skin_color"><br>
-        <label>Color d'ulls':</label>
-        <input type="text" name="eye_color"><br>
-        <input id="buscar" type="submit" value="Buscar">
+      <h1>Buscar personatges de Star Wars</h1>
+      <form id="search-form" class="form-horizontal">
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Altura:</label>
+          <div class="col-sm-10">
+            <input type="text" name="height" class="form-control">
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Pes:</label>
+          <div class="col-sm-10">
+            <input type="text" name="mass" class="form-control">
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Color de cabell:</label>
+          <div class="col-sm-10">
+            <input type="text" name="hair_color" class="form-control">
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Color de pell:</label>
+          <div class="col-sm-10">
+            <input type="text" name="skin_color" class="form-control">
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Color d'ulls:</label>
+          <div class="col-sm-10">
+            <input type="text" name="eye_color" class="form-control">
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <input id="buscar" type="submit" value="Buscar" class="btn btn-primary">
+          </div>
+        </div>
       </form>
+      
       <ul id="character-list"></ul>
     </div>
 

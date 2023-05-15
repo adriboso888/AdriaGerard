@@ -9,7 +9,7 @@ const contingut = document.getElementById("chart");
 
     //Funcio per obtenir les dades dels planetes
     async function getAllPlanets() {
-      let url = 'https://swapi.dev/api/planets/';
+      let url = 'https://swapi.py4e.com/api/planets/';
       let totsElsPlanetes = [];
 
       // Recorrer totes les pagines de planetes

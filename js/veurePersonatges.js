@@ -1,6 +1,6 @@
 
 export function veurePelis(selectPelis, personatges, imatge) {
-      fetch(`https://swapi.dev/api/films/${selectPelis.value}`) //busquem dintre de l'api de pelicules la que haguem seleccionat en el select
+      fetch(`https://swapi.py4e.com/api/films/${selectPelis.value}`) //busquem dintre de l'api de pelicules la que haguem seleccionat en el select
         .then(response => response.json())
         .then(pelicula => {
           personatges.innerHTML = "";

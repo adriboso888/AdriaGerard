@@ -19,7 +19,7 @@
     });
 
     //Funcio per buscar els personatges
-    function buscarPersonatges(height, mass, hairColor, skinColor, eyeColor, url = 'https://swapi.dev/api/people/') {
+    function buscarPersonatges(height, mass, hairColor, skinColor, eyeColor, url = 'https://swapi.py4e.com/api/people/') {
         fetch(url) //fem el fetch de people
             .then(response => response.json())
             .then(data => {
