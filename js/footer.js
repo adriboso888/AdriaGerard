@@ -33,6 +33,9 @@ footer.innerHTML = `
                         <li class="nav-item">
                           <a class="nav-link" href="Pagina3.html">Buscar Personatge</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Pagina4.html">Mostrar Naus</a>
+                        </li>
                       </ul>
                     </div>
                 </div>
