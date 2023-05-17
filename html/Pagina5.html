@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../css/ProjecteAGcss.css" type="text/css">
     <link rel="stylesheet" href="../css/ProjecteAG.css" type="text/css">
     <script src="../js/footer.js" type="text/javascript" defer></script>
-    <script src="../js/mostrarNaus.js" type="text/javascript" defer></script>
+    <script src="../js/llistarPersones.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="shortcut icon"
         href="https://yt3.googleusercontent.com/ytc/AGIKgqM_6K_Hn5dH7OP346MxNZMKuHhX3_zMRyZkxGKzmA=s900-c-k-c0x00ffffff-no-rj">
-    <title>Mostrar Naus</title>
+    <title>Llistar persones per especie</title>
 </head>
 
 <body>
@@ -48,26 +48,40 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="Pagina4.html">Mostrar Naus</a>
+                    <a class="nav-link" href="Pagina4.html">Mostrar Naus</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Pagina5.html">Llistar personatges per especie</a>
+                    <a class="nav-link text-black" href="Pagina5.html">Llistar personatges per especie</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+
     <div class="container">
         <div class="row">
-            <div class="col-3" id="naus">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputText">Introdueix de quina especie vols mostrar els personastges</label>
+                    <input type="text" class="form-control" id="inputText">
+                </div>
             </div>
-            <div class="col-9" id="contingut">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary" id="submitButton">Enviar</button>
             </div>
         </div>
-
     </div>
 
-
+    <div class="row">
+        <div class="col-md-6">
+          <div id="characterList"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="characterInfo" style="display: none;"></div>
+        </div>
+      
+    </div>
+      
 
 
     <div id="footer"></div>

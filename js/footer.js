@@ -36,6 +36,9 @@ footer.innerHTML = `
                         <li class="nav-item">
                           <a class="nav-link" href="Pagina4.html">Mostrar Naus</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Pagina5.html">Llistar personatges per especie</a>
+                        </li>
                       </ul>
                     </div>
                 </div>
