@@ -75,7 +75,9 @@ footer:link {
   color: yellow;
 }
 
-
+.container {
+  min-height: calc(100% - 50px); /* Ajusta el valor segons l'altura del footer */
+}
 
 
 /* */
@@ -89,4 +91,55 @@ div.row {
 
 div.container-fluid {
   padding-right: 0px;
+}
+
+
+/* CSS per la 5na pagina*/
+.container {
+  margin-top: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#characterList {
+  margin-top: 20px;
+}
+
+#characterInfo {
+  margin-top: 20px;
+  background-color: #94e4b5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#characterInfo h3 {
+  margin-top: 0;
+}
+
+
+
+
+.col-3 {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.col-3 .card {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.col-3 .card:hover {
+  background-color: #2f6294;
+}
+
+.col-9 {
+  background-color: #57e44a;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 200px;
 }
