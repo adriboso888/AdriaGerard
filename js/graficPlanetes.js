@@ -13,7 +13,7 @@ const contingut = document.getElementById("chart");
       let totsElsPlanetes = [];
 
       // Recorrer totes les pagines de planetes
-      while (url !== null) {
+      while (url !== null) {  
         const data = await getPlanets(url);
         totsElsPlanetes = totsElsPlanetes.concat(data.results);
         url = data.next;
